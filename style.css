@@ -1,7 +1,21 @@
 body {
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    transform: rotate(270deg);
+    margin-top: 50px;
+}
+
 #container {
     width: 512px;
     height: 512px;
@@ -13,10 +27,6 @@ body {
 
 .div {
     background-color: black;
-    border-radius: 10%;
 }
 
-/*.div:hover {
-    opacity: 50%;
-}*/
 
