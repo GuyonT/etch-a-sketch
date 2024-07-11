@@ -8,13 +8,15 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
+    border: 3px solid black;
 }
 
 .div {
     background-color: black;
-    opacity: 0%;
+    border-radius: 10%;
 }
 
-.div:hover {
+/*.div:hover {
     opacity: 50%;
-}
+}*/
+
